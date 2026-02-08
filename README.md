@@ -20,17 +20,25 @@ This dataset consists of 10,000 records, each representing a synthetic patient h
 Healtcare-Datasets/
 ├── LICENSE
 ├── README.md
-├── data/
-│   ├── raw/          # Original dataset from Kaggle (Healthcare Dataset)
-│   └── cleaned/      # Cleaned dataset (processed using Python via Google Colab)
-├── reports/
-│   └── dashboard/    # Power BI dashboard screenshots
+├── Notebooks         
+│   └── Healthcare_Data_Analysis.ipynb             # Python language via Google Colab
+├── Data/
+│   ├── Raw/                                       # Original dataset from Kaggle (Healthcare Dataset)
+│   └── Cleaned/                                   # Cleaned dataset (processed using Python via Google Colab)
+├── Reports/
+│   └── Healthcare Data Analysis Dashboard.PNG     # Power BI dashboard screenshots
+│   └── Healthcare Data Sales Dashboard.PNG        # Power BI dashboard screenshots
 └── PowerBI/
-    └── file name
+    └── Healthcare Data Analysis Dashboard.pbix
 ```
 ## How to run / view project
 
-1. 
+1. Download the raw dataset from the data/raw/ folder in the project repository.
+2. Download the Colab notebook (.ipynb) from the notebooks/ folder.
+3. Open the notebook in Google Colab.
+4. Ensure all required Python libraries (listed in the notebook, e.g., pandas, numpy, matplotlib) are installed.
+5. Run the code cells sequentially to clean, process, and analyze the data. The cleaned dataset will be saved in data/cleaned/.
+6. Explore the visualizations in Power BI using the processed dataset provided.
 
 ## License
 
