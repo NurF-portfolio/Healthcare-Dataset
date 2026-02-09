@@ -39,6 +39,53 @@ Healtcare-Datasets/
 4. Ensure all required Python libraries (listed in the notebook, e.g., pandas, numpy, matplotlib) are installed.
 5. Run the code cells sequentially to clean, process, and analyze the data. The cleaned dataset will be saved in data/cleaned/.
 6. Explore the visualizations in Power BI using the processed dataset provided.
+ 
+## Methodology
+
+This project follows a structured end-to-end data analysis workflow, starting from data preprocessing in Python to interactive dashboard development in Power BI.
+
+1. Data Collection
+   - Dataset obtained from [Kaggle](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
+
+2. Data Cleaning & Preprocessing (Python – Google Colab)  
+   - Checked for missing values and duplicates
+   - Verified data types for consistency     
+   - Converted data types for accurate analysis  
+   - Created new calculated features to enhance insights
+
+3. Exploratory Data Analysis (EDA)  
+   - Analyzed data distributions and key metrics  
+   - Identified trends, patterns, and relationships  
+   - Performed correlation analysis  
+   - Generated visualizations using Matplotlib and Seaborn  
+
+4. Data Preparation for Dashboard  
+   - Aggregated and transformed data for reporting  
+   - Structured data model for Power BI  
+   - Exported cleaned dataset for dashboard integration  
+
+5. Dashboard Development (Power BI)  
+   - Designed interactive dashboard layout  
+   - Created KPI indicators and summary metrics  
+   - Developed slicers and filters for dynamic analysis  
+
+
+## Key Findings / Insights
+
+
+
+## Visualization Preview
+
+Healthcare Data Analysis Dashboard
+![Dashboard Screenshots](https://github.com/NurF-portfolio/Healthcare-Dataset/blob/98dc840a1b845f728954ab012210b499171a132b/Reports/Healthcare%20Data%20Analysis%20Dashboard.PNG)
+
+Healthcare Data Sales Dahsboard
+![Dashboard Screenshots](https://github.com/NurF-portfolio/Healthcare-Dataset/blob/98dc840a1b845f728954ab012210b499171a132b/Reports/Healthcare%20Data%20Sales%20Dashboard.PNG)
+
+
+## Conculusion 
+
+
 
 ## License
 
