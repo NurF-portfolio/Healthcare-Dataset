@@ -12,7 +12,7 @@ This dataset consists of 10,000 records, each representing a synthetic patient h
 
 - **Python (via Google Colab)** – Used for data cleaning, processing, and exploratory data analysis (EDA).
 - **Google Colab** – Development environment for Python notebooks. 
-- **Power BI** – Used to create interactive dand insightful data visualizations
+- **Power BI** – Used to create interactive and insightful data visualizations
 
 ## Project Structure
 
